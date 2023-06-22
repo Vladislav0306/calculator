@@ -13,7 +13,7 @@ public class Calculator {
     {
         Process process = null;
         try {
-            process = new ProcessBuilder("C:\\Users\\Dell\\Downloads\\TestCalc.exe").start();
+            process = new ProcessBuilder("C:\\Users\\Dell\\IdeaProjects\\testcalc\\TestCalc.exe").start();
         } catch (IOException e) {
             e.printStackTrace();
         }
